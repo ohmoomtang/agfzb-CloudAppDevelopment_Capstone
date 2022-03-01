@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = ["localhost", "oot-capstone.au-syd.cf.appdomain.cloud"]
 
 
 # Application definition

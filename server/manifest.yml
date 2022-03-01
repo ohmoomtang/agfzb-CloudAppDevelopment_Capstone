@@ -1,11 +1,11 @@
   applications:
-  - name: djangoapp
+  - name: oot-djangoapp-capstone
     routes:
-      - route: $HOST.$DOMAIN
+      - route: oot-capstone.au-syd.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: oot-djangoapp-nginx-capstone
     routes:
-      - route: $HOST.$DOMAIN/static
+      - route: oot-capstone.au-syd.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
